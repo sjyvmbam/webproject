@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Sans-Serif;
+    background-size: cover;
+  background-image: url("../img/unplash1.jpg");
+
+
+}
+
+.lien{
+
+    color: white;
+    transform:translate(0%,1900%);
+
+
+}
+ #logo{
+     transform: translate(-.3%,3%);
+    text-decoration: none;
+     display: flex;
+     justify-content: flex-end;
+     color: white;
+
+
+}
+ form {
+
+     display: flex;
+     justify-content: flex-end;
+     transform: translate(0%,1000%);
+
+ }
+
+label{
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.img{
+        transform:translate(0%,-30%);
+
+}
+
+header{
+    transform:translate(0%,-50%);
+
+
+}
+div{
+    transform:translate(0%,-119%);
+
+
+}

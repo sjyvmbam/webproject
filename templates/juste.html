@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+    <link rel="stylesheet" type="text/css" href="../CSS/about.css" />
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="row justify-content-center mt-5">
+    <header>
+      Le Juste Prix
+    </header>
+  </div>
+
+  <!-- Formulaire -->
+  <div class="row justify-content-center mt-5 mb-4">
+    <div class="col-lg-8">
+      <div class="bg-light p-5 shadow">
+
+        <form id="formulaire">
+          <div class="row">
+            <div class="col">
+              <input id="prix" class="form-control" placeholder="guess the preis ! (between 0 et 1 000)" />
+            </div>
+            <button type="submit" class="btn btn-primary">guess</button>
+          </div>
+          <small class="text-danger">Vous devez rentrer un nombre.</small>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Instructions -->
+  <div class="row justify-content-center">
+    <div id="instructions" class="col-lg-8"></div>
+  </div>
+
+</div>
+<script src="../JS/prix.js"></script>
+
+
+</body>
+</html>
