@@ -1,0 +1,73 @@
+html, body {
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    min-width: 400px;
+}
+
+#ville {
+    margin-top: 20px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+}
+
+#temperature {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 4em;
+}
+
+#changer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background: rgba(178, 223, 251, .3);
+    cursor: pointer;
+}
+
+h1{
+    margin-top:50px;
+    text-align: center;
+}
+
+#logout{
+    position: fixed;
+    right:0px;
+    top:6px;
+    color:white;
+    cursor: pointer;
+    z-index: 9999;
+
+}
+
+
+html, body {
+    font-family: arial;
+    min-width: 300px;
+}
+
+button {
+    border: 3px;
+    border-radius: 15px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+* {
+    outline: 0;
+}
+
+.dark {
+    background-color: #112F41;
+    color: #ffffff;
+}
+
+.dark button {
+    background: #144098;
+    color: #fff;
+}
+
+a{
+     text-decoration: none;
+ }

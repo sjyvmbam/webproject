@@ -1,0 +1,104 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Sans-Serif;
+    background-size: cover;
+  background-image: url("../img/design1.jpg");
+
+
+}
+
+
+ #logo{
+
+    position: fixed;
+     border:1px solid greenyellow;
+     wtdth:100%;
+     background-color: #03a9f4;
+     right:0px;
+     top: 0px;
+     color: white;
+     text-decoration: none;
+
+
+}
+ img{
+     position: fixed;
+          top: 0px;
+         right:50px;
+
+ }
+
+ #comment{
+     background-color: #fff;
+     border:1px solid white;
+ }
+
+
+ #edit{
+     position:fixed;
+     bottom: 0px;
+     left:740px;
+    width: 100%;
+    display: flex;
+
+ }
+
+
+ #search{
+     position:fixed;
+     right:600px;
+     top:55px;
+     z-index: 3;
+ }
+  #search #suchen{
+     margin-left: -5px;
+ }
+
+
+
+
+label{
+    display: inline-flex;
+    align-items: center;
+}
+
+.cm-comment{
+
+    position: fixed;
+    top: 3%;
+    display: flex;
+    justify-content: start;
+    color: #bbbbbb;
+    text-decoration: none;
+    z-index: 2;
+    border:1px solid white;
+    width: 100%;
+    background-color: black;
+}
+
+li {
+    width:100%;
+  background-color: #0CC;/*Bleu-vert*/
+  padding: 20px;
+  border: 10px solid black;
+    z-index: 1;
+
+}
+
+
+#messages {
+    position: absolute;
+    top:34%;
+    width: 30%;
+    float: right;
+    background-color: #777;
+    border:1px solid black;
+    z-index:1;
+}
+
+label{
+
+    color:white;
+}
+
